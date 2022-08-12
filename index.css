@@ -5,18 +5,16 @@ nav::before {
     position: absolute;
     top: 0;
     left: 0;
-    height: 377px;
+    height: 387px;
     width: 100vw;
-    background:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url('img/rajat-sarki-nnNCCQfSNsc-unsplash\ \(2\).jpg');
+    background:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url('img/zomto\ home.jpg');
     background-position: center;
     background-repeat: norepeat;
     background-size: 100vw 400px;
     z-index: -1;
     opacity: 1;
 }
-navbar-background{
-   height: 420px;
-}
+
 
 .col {
     color: rgb(255, 250, 250);
@@ -35,17 +33,18 @@ navbar-background{
    
     /* border: 2px solid white; */
     text-align: center;
+    height:300px
 }
 
 .logo_style h1 {
     font-style: italic;
     font-weight: bold;
-    font-size: 15rem;
+    font-size: 10rem;
     /* position: absolute; */
     /* margin: auto; */
    text-shadow:  0 0 3px #1e1a1a, 0 0 5px #a50f0f;
    
-    font-family: 'Times New Roman', Times, serif
+   font-family: 'DynaPuff', cursive;
 }
 /* .cssline {
     animation: css2 2s infinite ease-in-out;
@@ -98,7 +97,8 @@ navbar-background{
    
 }
 .mt_3{
-    margin-top: 34px;
+    margin-top: 10px;
+    /* border: 2px solid red; */
 }
 .thumbnail:hover{
     transform:  scale(1.1) ;
@@ -128,6 +128,10 @@ navbar-background{
 
 
 }
+
+.panel-title a:hover{
+    text-decoration: none;
+}
 .zomato_form h1{
     font-size: 43px;
 }
@@ -150,7 +154,7 @@ margin-top: 19px;
         display: none ;
     }
     .mt_3{
-        margin-top: 213px;
+        margin-top: 10px;
     }
     .col1{
         display: none;
@@ -163,4 +167,11 @@ margin-top: 19px;
         display: flex;
         flex-direction: column;
     }
+    .logo_style h3{
+       display: none;
+    }
+    .adress_search{
+        width: 60%;
+    }
+
 }
