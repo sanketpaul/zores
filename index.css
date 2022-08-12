@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Caveat+Brush&family=Comfortaa:wght@300;400&family=DM+Serif+Text&family=DynaPuff&family=Gentium+Book+Plus&family=Mali:wght@500&family=Varela+Round&display=swap');
+
+nav::before {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 377px;
+    width: 100vw;
+    background:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url('img/rajat-sarki-nnNCCQfSNsc-unsplash\ \(2\).jpg');
+    background-position: center;
+    background-repeat: norepeat;
+    background-size: 100vw 400px;
+    z-index: -1;
+    opacity: 1;
+}
+navbar-background{
+   height: 420px;
+}
+
+.col {
+    color: rgb(255, 250, 250);
+    text-shadow: 0 0 3px #1e1a1a, 0 0 5px #282873;
+}
+.col2{
+   opacity:0;
+   font-family: 'DynaPuff', cursive;
+   font-size: 30px;
+}
+
+.logo_style {
+    color: white;
+    /* position: absolute; */
+    margin:0px auto;
+   
+    /* border: 2px solid white; */
+    text-align: center;
+}
+
+.logo_style h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15rem;
+    /* position: absolute; */
+    /* margin: auto; */
+   text-shadow:  0 0 3px #1e1a1a, 0 0 5px #a50f0f;
+   
+    font-family: 'Times New Roman', Times, serif
+}
+/* .cssline {
+    animation: css2 2s infinite ease-in-out;
+    height: 5px;
+    width: 24%;
+    border: none;
+    margin-left: 2%;
+
+
+    background-color: transparent;
+    background-image: linear-gradient(90deg, yellow -1.35%, transparent 97.57%);
+
+}
+
+@keyframes css2 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 24%;
+    }
+} */
+.adress_search{
+    /* border: 2px solid white; */
+    /* background-color: white; */
+    width: 30%;
+    /* position: absolute; */
+    margin: auto;
+    /* outline: none; */
+    font-size: 18px;
+   
+   
+    text-align: center;
+;
+    
+}
+.adress_search select{
+    font-size: 17px;
+    outline: none;
+     
+}
+.adress_search input{
+    font-size: 17px;
+}
+.order_online{
+    /* border: 2px solid red; */
+    height: 120px;
+    width: 100%;
+   
+}
+.mt_3{
+    margin-top: 34px;
+}
+.thumbnail:hover{
+    transform:  scale(1.1) ;
+
+}
+.thumbnail a:hover{
+    text-decoration: none;
+
+}
+.item_2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item_2 a{
+    color:rgb(82, 80, 80);
+
+}
+.item_2 a:hover{
+    text-decoration: none;
+}
+.mobile_height{
+    height: 300px;
+}
+.zomato_form{
+    width: 70%;
+
+
+}
+.zomato_form h1{
+    font-size: 43px;
+}
+.zomato_form p{
+    font-size: 18px;
+}
+.my_3{
+margin-top: 19px;
+}
+.display{
+    display:flex;
+    margin:2px;
+}
+.flex_direction{
+    justify-content: space-between;
+}
+
+@media screen and (max-width:852px){
+    .logo_style h1{
+        display: none ;
+    }
+    .mt_3{
+        margin-top: 213px;
+    }
+    .col1{
+        display: none;
+    }
+    .col2{
+        opacity: 1;
+        
+    }
+    .v-res{
+        display: flex;
+        flex-direction: column;
+    }
+}
