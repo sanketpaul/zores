@@ -7,7 +7,7 @@ nav::before {
     left: 0;
     height: 387px;
     width: 100vw;
-    background:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url('img/zomto\ home.jpg');
+    background:linear-gradient(to right,rgba(0,0,0,0.4),rgba(0,0,0,0.3)) ,url('img/background2.jpg');
     background-position: center;
     background-repeat: norepeat;
     background-size: 100vw 400px;
@@ -97,7 +97,7 @@ nav::before {
    
 }
 .mt_3{
-    margin-top: 10px;
+    margin-top: 30px;
     /* border: 2px solid red; */
 }
 .thumbnail:hover{
@@ -154,13 +154,14 @@ margin-top: 19px;
         display: none ;
     }
     .mt_3{
-        margin-top: 40px;
+        margin-top: 0 px;
     }
     .col1{
         display: none;
     }
     .col2{
         opacity: 1;
+        font-style: italic;
         
     }
     .v-res{
@@ -173,5 +174,13 @@ margin-top: 19px;
     .adress_search{
         width: 60%;
     }
+    .navbar{
+        margin-bottom: 43px;
+    }
 
+}
+@media screen and (max-width:412px){
+    .nav{
+        /* height: 100vh; */
+    }
 }
